@@ -1,0 +1,26 @@
+@import 'colors.scss';
+@import 'fonts.scss';
+
+.contactSection p{
+    font-size: 0.7em;
+}
+.noValid{
+    color: red;
+    border-color: red;
+}
+.valid{
+    color: green;
+    border-color: green;
+}
+
+//CSS for tooltips
+
+.tooltip-inner{
+    background-color: black;
+    color: $alternative;
+    font-family: $secondFont;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+    color: $alternative;
+}

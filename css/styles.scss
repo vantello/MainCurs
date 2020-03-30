@@ -1,0 +1,200 @@
+@import 'fonts.scss';
+@import 'mixins.scss';
+@import 'colors.scss';
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+// NAVBAR
+.navbar{
+    height: 54px;
+}
+#navbarTogglerMain{
+    font-family: $secondFont;
+}
+#navbarTogglerMain li a{
+    color:white;
+    &:hover{
+        color: $alternative !important;
+    }
+}
+.active{
+    color: $alternative !important;
+} 
+// JUMBOTRON
+.jumbotron{
+    color: white;
+    background-image: url("../img/clement-h-95YRwf6CNw8-unsplash1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    @include height;
+}
+
+.jumbotron h1{
+    font-family: $firstFont;
+    // color:#f1c40f;
+    font-weight: 500;
+    font-size: 60px;
+    margin-top: 2.1em;
+}
+.jumbotron a{
+    font-family: $secondFont;
+    font-weight: 100;
+}
+// SECTIONS
+h3{
+    background-color: $alternative;
+}
+
+.sectionHtml{
+    @include height;
+    #contentHtml{
+        @include contentSection;
+    }
+    #mockupHtml{
+        @include contentMockup;
+    }
+    img{
+        @include sectionImg;    
+    }
+}
+.sectionCss{
+    @include height;
+    #contentCss{
+        @include contentSection;
+    }
+    #mockupCss{
+        @include contentMockup;
+    }
+    img{ 
+        @include sectionImg;      
+    }
+}
+.sectionBootstrap{
+    @include height;
+    #contentBootstrap{
+        @include contentSection;
+    }
+    #mockupBootstrap{
+        @include contentMockup;
+    }
+    img{
+        @include sectionImg;       
+    }
+}
+.sectionJavascript{
+    @include height;
+    #contentJavascript{
+        @include contentSection;
+        @include list;
+    }
+    #mockupJavascript{
+        @include contentMockup;
+    }
+    img{
+        @include sectionImg;       
+    }
+}
+.sectionTypescript{
+    @include height;
+    #contentTypescript{
+        @include contentSection;
+        @include list;
+    }
+    #mockupTypescript{
+        @include contentMockup;
+    }
+    img{
+        @include sectionImg;       
+    } 
+}
+.sectionSass{
+    @include height;
+    #contentSass{
+        @include contentSection;
+        @include list;
+    }
+    #mockupSass{
+        @include contentMockup;
+    }
+    img{ 
+        @include sectionImg;      
+    }
+}
+.sectionJquery{
+    @include height;
+    #contentJquery{
+        @include contentSection;
+        @include list;
+    }
+    #mockupJquery{
+        @include contentMockup;
+    }
+    img{ 
+        @include sectionImg;      
+    }
+}
+.sectionLeaflet{
+    @include height;
+    #contentLeaflet{
+        @include contentSection;
+        @include list;
+    }
+    #mockupLeaflet{
+        @include contentMockup;
+    }
+    img{
+        @include sectionImg;       
+    }
+}
+
+// CONTACT FORM
+.contactSection{
+    @include height;
+}
+.contactSection h1{
+    font-family: $firstFont;
+    margin-top: 2em;
+}
+.contactSection .inputForm{
+    @include inputForm;
+}
+.contactSection .form-control:focus {
+    border-color: $alternative;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px $alternative;
+    outline: 0 none;
+}
+.contactSection hr{
+    width: 20%;
+    border: 2px solid $alternative;
+}
+
+.contactSection button{
+    border: 2px black solid;
+    font-family: $secondFont;
+    transition: background-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+    &:hover{
+        background-color: black;
+        color: $alternative;
+    }
+}
+.noPointer{
+    pointer-events: none;
+}
+
+// FOOTER
+footer{
+    font-family: $secondFont; 
+    font-weight: bold;
+}
+footer a{
+    color: black;
+    
+    &:hover{
+        color: $alternative;
+    }
+}

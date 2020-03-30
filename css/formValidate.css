@@ -1,0 +1,28 @@
+/* Import Fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap");
+/* Font Variables */
+.contactSection p {
+  font-size: 0.7em;
+}
+
+.noValid {
+  color: red;
+  border-color: red;
+}
+
+.valid {
+  color: green;
+  border-color: green;
+}
+
+.tooltip-inner {
+  background-color: black;
+  color: #f1c40f;
+  font-family: "Spartan", sans-serif;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+  color: #f1c40f;
+}
+/*# sourceMappingURL=formValidate.css.map */

@@ -1,0 +1,406 @@
+/* Import Fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap");
+/* Font Variables */
+/* Import Fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap");
+/* Font Variables */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  height: 54px;
+}
+
+#navbarTogglerMain {
+  font-family: "Spartan", sans-serif;
+}
+
+#navbarTogglerMain li a {
+  color: white;
+}
+
+#navbarTogglerMain li a:hover {
+  color: #f1c40f !important;
+}
+
+.active {
+  color: #f1c40f !important;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("../img/clement-h-95YRwf6CNw8-unsplash1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.jumbotron h1 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  margin-top: 2.1em;
+}
+
+.jumbotron a {
+  font-family: "Spartan", sans-serif;
+  font-weight: 100;
+}
+
+h3 {
+  background-color: #f1c40f;
+}
+
+.sectionHtml {
+  height: 100vh;
+}
+
+.sectionHtml #contentHtml {
+  margin-top: 12em;
+}
+
+.sectionHtml #contentHtml h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+.sectionHtml #contentHtml p {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionHtml #mockupHtml {
+  margin-top: 6em;
+}
+
+.sectionHtml img {
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.sectionCss {
+  height: 100vh;
+}
+
+.sectionCss #contentCss {
+  margin-top: 12em;
+}
+
+.sectionCss #contentCss h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+.sectionCss #contentCss p {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionCss #mockupCss {
+  margin-top: 6em;
+}
+
+.sectionCss img {
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.sectionBootstrap {
+  height: 100vh;
+}
+
+.sectionBootstrap #contentBootstrap {
+  margin-top: 12em;
+}
+
+.sectionBootstrap #contentBootstrap h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+.sectionBootstrap #contentBootstrap p {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionBootstrap #mockupBootstrap {
+  margin-top: 6em;
+}
+
+.sectionBootstrap img {
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.sectionJavascript {
+  height: 100vh;
+}
+
+.sectionJavascript #contentJavascript {
+  margin-top: 12em;
+}
+
+.sectionJavascript #contentJavascript h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+.sectionJavascript #contentJavascript p {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionJavascript #contentJavascript li {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionJavascript #contentJavascript a {
+  color: black;
+}
+
+.sectionJavascript #contentJavascript a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.sectionJavascript #mockupJavascript {
+  margin-top: 6em;
+}
+
+.sectionJavascript img {
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.sectionTypescript {
+  height: 100vh;
+}
+
+.sectionTypescript #contentTypescript {
+  margin-top: 12em;
+}
+
+.sectionTypescript #contentTypescript h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+.sectionTypescript #contentTypescript p {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionTypescript #contentTypescript li {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionTypescript #contentTypescript a {
+  color: black;
+}
+
+.sectionTypescript #contentTypescript a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.sectionTypescript #mockupTypescript {
+  margin-top: 6em;
+}
+
+.sectionTypescript img {
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.sectionSass {
+  height: 100vh;
+}
+
+.sectionSass #contentSass {
+  margin-top: 12em;
+}
+
+.sectionSass #contentSass h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+.sectionSass #contentSass p {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionSass #contentSass li {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionSass #contentSass a {
+  color: black;
+}
+
+.sectionSass #contentSass a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.sectionSass #mockupSass {
+  margin-top: 6em;
+}
+
+.sectionSass img {
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.sectionJquery {
+  height: 100vh;
+}
+
+.sectionJquery #contentJquery {
+  margin-top: 12em;
+}
+
+.sectionJquery #contentJquery h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+.sectionJquery #contentJquery p {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionJquery #contentJquery li {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionJquery #contentJquery a {
+  color: black;
+}
+
+.sectionJquery #contentJquery a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.sectionJquery #mockupJquery {
+  margin-top: 6em;
+}
+
+.sectionJquery img {
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.sectionLeaflet {
+  height: 100vh;
+}
+
+.sectionLeaflet #contentLeaflet {
+  margin-top: 12em;
+}
+
+.sectionLeaflet #contentLeaflet h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+.sectionLeaflet #contentLeaflet p {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionLeaflet #contentLeaflet li {
+  font-family: "Spartan", sans-serif;
+}
+
+.sectionLeaflet #contentLeaflet a {
+  color: black;
+}
+
+.sectionLeaflet #contentLeaflet a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.sectionLeaflet #mockupLeaflet {
+  margin-top: 6em;
+}
+
+.sectionLeaflet img {
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.contactSection {
+  height: 100vh;
+}
+
+.contactSection h1 {
+  font-family: "Overpass", sans-serif;
+  margin-top: 2em;
+}
+
+.contactSection .inputForm {
+  border: 2px black solid;
+  color: black;
+  font-family: "Spartan", sans-serif;
+}
+
+.contactSection .form-control:focus {
+  border-color: #f1c40f;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #f1c40f;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #f1c40f;
+  outline: 0 none;
+}
+
+.contactSection hr {
+  width: 20%;
+  border: 2px solid #f1c40f;
+}
+
+.contactSection button {
+  border: 2px black solid;
+  font-family: "Spartan", sans-serif;
+  -webkit-transition: background-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+  transition: background-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+}
+
+.contactSection button:hover {
+  background-color: black;
+  color: #f1c40f;
+}
+
+.noPointer {
+  pointer-events: none;
+}
+
+footer {
+  font-family: "Spartan", sans-serif;
+  font-weight: bold;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: #f1c40f;
+}
+/*# sourceMappingURL=styles.css.map */

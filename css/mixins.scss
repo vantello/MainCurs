@@ -1,0 +1,47 @@
+@import 'fonts.scss';
+
+@mixin height{
+    height: 100vh;
+}
+@mixin inputForm{
+    border: 2px black solid;
+    color: black;
+    font-family: $secondFont;
+}
+
+@mixin contentSection{
+    margin-top: 12em;
+        h3{
+            font-family: $firstFont;
+        }
+        p{
+            font-family: $secondFont;
+        }
+}
+
+@mixin contentMockup{
+    margin-top: 6em;
+}
+
+@mixin sectionImg{
+    max-width: 100%;
+        height: auto;
+        width: 800px;
+        
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+               -moz-box-shadow: 0 10px 6px -6px #777;
+                    box-shadow: 0 10px 6px -6px #777;
+}
+
+@mixin list{
+    li{
+        font-family: $secondFont;
+    }
+    a{
+        color: black;
+    }
+    a:hover{
+        color: $alternative;
+        text-decoration: none;
+    }
+}
