@@ -258,7 +258,7 @@
           <div class="col-6">
             <h1 class="text-center">CONTACT ME</h1>
             <hr>
-            <form id="contactForm">
+            <form id="contactForm" onsubmit="return validate()">
               <div class="form-group">
                 <label for="name"><i class="fas fa-female"></i><i class="fas fa-signature"></i><i class="fas fa-male"></i></label>
                 <input type="text" class="form-control inputForm" id="name" placeholder="Name" data-toggle="tooltip" title="only letters" data-placement="bottom">
@@ -279,7 +279,7 @@
                 <textarea class="form-control inputForm" id="book" placeholder="Tell me about you're concerned" rows="3"></textarea>
               </div>
               <div>
-                <button id="sendForm" class="btn btn-block btn-outline-black" onclick="validate()">contact me</button>
+                <button id="sendForm" type="submit" class="btn btn-block btn-outline-black">contact me</button>
               </div>
             </form>
           </div>

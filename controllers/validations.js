@@ -45,17 +45,20 @@ document.getElementById("contactForm").addEventListener("change", function(){
 
 //validate when send info
 function validate(){
+    var error = 0;
     var userName = document.getElementById("name").value;
     var userMail = document.getElementById("email").value;
     if (userName == ""){
         document.getElementById("nameValidate").innerHTML = "Name can't have numbers, dude.";
         document.getElementById("nameValidate").classList.add("noValid");
         document.getElementById("name").focus();
+        error++;
     }
     if(userMail == ""){
         document.getElementById("emailValidate").innerHTML = "Mail must be in that format: xxxx@xxxx.com";
         document.getElementById("emailValidate").classList.add("noValid");
         document.getElementById("email").focus(); 
+        error++;
     }
    var userPhone = document.getElementById("telephone").value;
     if(userPhone.length != 0){
@@ -63,6 +66,7 @@ function validate(){
         if(!regExpPhone.test(userPhone)){
             document.getElementById("phoneValidate").innerHTML = "Phone is not required, but if you want to give us it, it must begin with 9, 6 or 7.";
             document.getElementById("phoneValidate").classList.add("noValid");
+            error++;
         }
     }
     else{
@@ -71,6 +75,9 @@ function validate(){
         document.getElementById("telephone").value = "";
         document.getElementById("book").value = "";
     }
+    
+    if(error==0)return true;
+	else return false;
     
 }
 
